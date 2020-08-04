@@ -19,16 +19,6 @@ const reservas = [
   },
 ];
 
-const personalRoomPrices = {
-  standard: 100,
-  suite: 150
-}
-
-const tourOperatorPrices = {
-  standard: 100,
-  suite: 100
-}
-
 class Bookings {
   constructor() {
     this._reserva = [];
